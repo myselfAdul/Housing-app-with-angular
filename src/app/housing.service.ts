@@ -5,7 +5,9 @@ import { Housinglocation } from './housinglocation';
   providedIn: 'root'
 })
 export class HousingService {
-  readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
+  // readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
+  readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
+
 
   protected housingLocationList: Housinglocation[] = [
     {
